@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.2.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./导航栏作业/font-awesome-4.7.0/css/font-awesome.css">
+    <script src="./bootstrap-5.2.1-dist/js/bootstrap.js"></script>
+    <script src="./bootstrap-5.2.1-dist/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./导航栏作业/css/index .css">
+
+    <title>传食天下</title>
+</head>
+
+<body>
+
+    <div class="fixed-top">
+        <div class="bg-success h-25px"></div>
+        <nav class="navbar navbar-expand-md bg-color  ">
+
+            <div class="container flex-wrap">
+
+                <img src="./导航栏作业/img/标志.png" alt="">
+                <div class="w-100 d-md-block d-lg-none d-sm-none d-sm-none d-none"></div>
+                <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="navbar-collapse collapse " id="navmenu">
+                    <ul class="navbar-nav m-sm-auto justify-content-between w-75">
+                        <li class="nav-item ">
+                            <a href="" class="nav-link text-dark"> 主页</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-dark">客厅</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-dark">健康</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-dark">话题</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-muted">联系我们</a>
+                        </li>
+                    </ul>
+                    <div class="ps-5">
+                        <span class="text-danger">￥0.00</span>
+                        <img src="./导航栏作业/img/购物车.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <section class="search-content  search-pb  position-relative">
+        <picture>
+        <img src="./导航栏作业/img/background.jpg" alt="" class="w-100  ">
+    </picture>
+        <div class="container position-absolute search-position">
+            <div class="col-lg-4  col-md-6 col-sm-8 col-8 con px-5  pt-5 bd-placeholder-img rounded ">
+                <input type="text" class="w-100 form-control" placeholder="请输入餐厅名称">
+                <select name="" id="" class="w-100 form-control text-secondary mt-4">
+                    <option value="" class="">请选择城市</option>
+                    <option value="" class="text-dark">上海</option>
+                    <option value="" class="text-dark">北京</option>
+                </select>
+                <div class=" mt-3 row">
+
+                    <div class="btn   btn-danger col-6 offset-3 ">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <span class="text-light">搜索</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container d-flex ">
+            <div class="food-list-cnotent-left d-flex flex-column p-3">
+                <p class="fs-4 fw-bold ">红烧羊排</p>
+                <img src="./导航栏作业/img/1.jpg" alt="" class="w-100">
+                <small class="text-muted pt-2">山暖已无梅可折，江清独有蟹堪持。</small>
+                <p class="fs-5 pt-2">一口价： <span class="text-danger">￥66.6</span></p>
+            </div>
+            <div class="food-list-cnotent-left d-flex flex-column p-3">
+                <p class="fs-4 fw-bold ">红烧肉</p>
+                <img src="./导航栏作业/img/2.jpg" alt="" class="w-100">
+                <small class="text-muted pt-2">山暖已无梅可折，江清独有蟹堪持。</small>
+                <p class="fs-5 pt-2">一口价： <span class="text-danger">￥66.6</span></p>
+            </div>
+            <div class="food-list-cnotent-left d-flex flex-column p-3">
+                <p class="fs-4 fw-bold ">烤羊排</p>
+                <img src="./导航栏作业/img/3.jpg" alt="" class="w-100">
+                <small class="text-muted pt-2">山暖已无梅可折，江清独有蟹堪持。</small>
+                <p class="fs-5 pt-2">一口价： <span class="text-danger">￥66.6</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#hot">热菜</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#cool">凉菜</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#drink">饮料</a>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active container " id="hot">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 p-3 ">
+                            <img src="./导航栏作业/img/4.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">爆炒鱿鱼</p>
+                            <p class="text-center fs-6 p-0 m-0">￥160.5</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6  p-3 ">
+                            <img src="./导航栏作业/img/5.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">蒜香排骨</p>
+                            <p class="text-center fs-6 p-0 m-0">￥172.5</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6  p-3 ">
+                            <img src="./导航栏作业/img/6.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">梅菜肉</p>
+                            <p class="text-center fs-6 p-0 m-0">￥172.5</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 p-3 ">
+                            <img src="./导航栏作业/img/7.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">盘香菇炒蛋</p>
+                            <p class="text-center fs-6 p-0 m-0">￥154.0</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 p-3 ">
+                            <img src="./导航栏作业/img/8.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">火锅</p>
+                            <p class="text-center fs-6 p-0 m-0">￥152.0</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6  p-3 ">
+                            <img src="./导航栏作业/img/9.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">大盘鸡</p>
+                            <p class="text-center fs-6 p-0 m-0">￥124.0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane container" id="cool">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 p-3 ">
+                            <img src="./导航栏作业/img/10.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">凉拌肉片</p>
+                            <p class="text-center fs-6 p-0 m-0">￥160.5</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6  p-3 ">
+                            <img src="./导航栏作业/img/11.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">凉拌豆腐丝</p>
+                            <p class="text-center fs-6 p-0 m-0">￥172.5</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6  p-3 ">
+                            <img src="./导航栏作业/img/12.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">凉拌秋葵</p>
+                            <p class="text-center fs-6 p-0 m-0">￥172.5</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 p-3 ">
+                            <img src="./导航栏作业/img/13.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">凉拌黄瓜</p>
+                            <p class="text-center fs-6 p-0 m-0">￥154.0</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 p-3 ">
+                            <img src="./导航栏作业/img/14.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">红油藕片</p>
+                            <p class="text-center fs-6 p-0 m-0">￥152.0</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6  p-3 ">
+                            <img src="./导航栏作业/img/15.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">姜汁皮蛋</p>
+                            <p class="text-center fs-6 p-0 m-0">￥124.0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane container" id="drink">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 p-3 ">
+                            <img src="./导航栏作业/img/16.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">鸡尾酒</p>
+                            <p class="text-center fs-6 p-0 m-0">￥23.0</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6  p-3 ">
+                            <img src="./导航栏作业/img/17.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">可乐</p>
+                            <p class="text-center fs-6 p-0 m-0">￥18.0</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6  p-3 ">
+                            <img src="./导航栏作业/img/18.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">柚子柠檬水</p>
+                            <p class="text-center fs-6 p-0 m-0">￥15</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 p-3 ">
+                            <img src="./导航栏作业/img/19.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">蜜桃果霸</p>
+                            <p class="text-center fs-6 p-0 m-0">￥26.0</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 p-3 ">
+                            <img src="./导航栏作业/img/20.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">奶昔</p>
+                            <p class="text-center fs-6 p-0 m-0">￥30.0</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6  p-3 ">
+                            <img src="./导航栏作业/img/21.jpg" alt="" class="w-100">
+                            <p class="text-center fs-5 p-0 m-0">青柠冰咖啡</p>
+                            <p class="text-center fs-6 p-0 m-0">￥32.0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container  mt-2 ">
+
+            <div id="demo" class="carousel slide carousel-fade d-none d-sm-none d-md-block d-lg-block bg-light"
+                data-bs-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active ">
+                            <div class="row p-4">
+                                <img src="./导航栏作业/img/p01.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                                <img src="./导航栏作业/img/p02.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                                <img src="./导航栏作业/img/p03.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                                <img src="./导航栏作业/img/p04.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                                <img src="./导航栏作业/img/p05.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                                <img src="./导航栏作业/img/p06.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row p-4">
+                                <img src="./导航栏作业/img/p04.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                                <img src="./导航栏作业/img/p05.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                                <img src="./导航栏作业/img/p06.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                                <img src="./导航栏作业/img/p01.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                                <img src="./导航栏作业/img/p02.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                                <img src="./导航栏作业/img/p03.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row p-4">
+                                <img src="./导航栏作业/img/p02.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                                <img src="./导航栏作业/img/p03.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                                <img src="./导航栏作业/img/p06.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                                <img src="./导航栏作业/img/p01.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                                <img src="./导航栏作业/img/p04.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                                <img src="./导航栏作业/img/p05.jpg" alt="" class="d-inline-block col-lg-2 col-md-3 ">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev bg-left" type="button" data-bs-target="#demo"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next bg-right" type="button" data-bs-target="#demo"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+
+            </div>
+    </section>
+    <footer>
+        <div class=" p-3 bg-danger">
+            <div class="container ">
+                <div class="row">
+                    <p class="col-lg-5 fs-7 text-light">web12姜泽华 &copy;bootstrap响应式餐饮网站|版权所有 </p>
+                    <div class="col-lg-4 offset-3 text-light">
+                        <p class="d-inline-block mx-2">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <span class="fs-7 mr-3 mx-1">联系我们</span>
+                        </p>
+                        <p class="d-inline-block mx-2">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <span class="fs-7 mx-1">公司地址</span>
+                        </p>
+                        <p class="d-inline-block mx-2">
+                            <i class="fa fa-question-circle" aria-hidden="true"></i>
+                            <span class="fs-7 mx-1">服务声明</span>
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+    </footer>
+</body>
+
+</html>
